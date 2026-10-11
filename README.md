@@ -5,11 +5,8 @@
 Built for **Hack for Social Cause** · Innovate for Bharat · Viksit Bharat Young Leaders Dialogue 2027
 Team: **Solo Sentinel**
 
-🔗 **Live demo:** [LIVE_LINK_HERE]
+🔗 **Live demo:** https://sachet-umber.vercel.app/
 🎥 **Demo video:** [VIDEO_LINK_HERE]
-
-![Sachet home screen](c:\Users\ASUS\OneDrive\画像\Screenshots\Screenshot 2026-10-11 124937.png)
-![Sachet result screen](c:\Users\ASUS\OneDrive\画像\Screenshots\Screenshot 2026-10-11 125015.png)
 
 ---
 
