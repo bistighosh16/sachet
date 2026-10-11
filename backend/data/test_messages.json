@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "text": "Dear customer, your SBI account will be blocked within 24 hours. Click here to update KYC: http://sbi-kyc-update.xyz",
+    "lang": "en",
+    "expected": "scam",
+    "type": "Fake KYC + Suspicious Link + Urgency"
+  },
+  {
+    "id": 2,
+    "text": "Congratulations! You have won Rs 25 lakh in KBC lottery. Send your OTP to 9876543210 to claim your prize immediately.",
+    "lang": "en",
+    "expected": "scam",
+    "type": "Lottery + OTP Request + Urgency"
+  },
+  {
+    "id": 3,
+    "text": "This is CBI officer Sharma. Your Aadhar is linked to a money laundering case. Install AnyDesk and share your screen for verification or you will be arrested.",
+    "lang": "en",
+    "expected": "scam",
+    "type": "Digital Arrest + Remote App + Threat"
+  },
+  {
+    "id": 4,
+    "text": "Your electricity bill is overdue. Pay Rs 1500 immediately or your connection will be disconnected within 24 hrs. Click: bit.ly/pay-bill-now",
+    "lang": "en",
+    "expected": "scam",
+    "type": "Fake Bill + Urgency + Suspicious Link"
+  },
+  {
+    "id": 5,
+    "text": "Dear user, your SIM will be blocked in 2 hours. Please verify your KYC by calling 1800-XXX-XXXX and share your OTP for confirmation.",
+    "lang": "en",
+    "expected": "scam",
+    "type": "SIM Block + OTP Request + Urgency"
+  },
+  {
+    "id": 6,
+    "text": "Aapke SBI account se Rs 50,000 ka transaction hua hai. Agar aapne nahi kiya to turant apna OTP aur CVV share karein 9876543210 par.",
+    "lang": "hi",
+    "expected": "scam",
+    "type": "OTP + CVV Request (Hinglish)"
+  },
+  {
+    "id": 7,
+    "text": "Apka KYC expire ho gaya hai. Account block hone se pehle jaldi se is link pe click karein: http://kyc-verify.top",
+    "lang": "hi",
+    "expected": "scam",
+    "type": "Fake KYC + Suspicious Link (Hinglish)"
+  },
+  {
+    "id": 8,
+    "text": "Digital arrest warrant issued against you by Delhi Police. Call 011-XXXX immediately or FIR will be filed. Install QuickSupport for verification.",
+    "lang": "en",
+    "expected": "scam",
+    "type": "Digital Arrest + Remote App"
+  },
+  {
+    "id": 9,
+    "text": "আপনার ব্যাংক অ্যাকাউন্ট ২৪ ঘণ্টার মধ্যে ব্লক হয়ে যাবে। ওটিপি পাঠান এখনই ৯৮৭৬৫৪৩২১০ নম্বরে।",
+    "lang": "bn",
+    "expected": "scam",
+    "type": "Account Block + OTP Request (Bengali)"
+  },
+  {
+    "id": 10,
+    "text": "Congratulations! You won iPhone 15 in Amazon lucky draw. Pay Rs 500 processing fee via UPI to claim. Send screenshot of payment to WhatsApp 98765.",
+    "lang": "en",
+    "expected": "scam",
+    "type": "Lottery + Payment Request"
+  },
+  {
+    "id": 11,
+    "text": "RBI notice: Your PAN card has been used in fraudulent transactions. Download this APK for identity verification: http://rbi-verify.tk/app.apk",
+    "lang": "en",
+    "expected": "scam",
+    "type": "Impersonation + APK + Suspicious Link"
+  },
+  {
+    "id": 12,
+    "text": "Bhai jaldi se apna OTP bhej de, mera phone dead ho gaya hai aur bank se call aaya hai verify karne ke liye.",
+    "lang": "hi",
+    "expected": "scam",
+    "type": "OTP Request (Hinglish, social engineering)"
+  },
+  {
+    "id": 13,
+    "text": "আপনি KBC লটারিতে ৫০ লক্ষ টাকা জিতেছেন! এখনই রেজিস্ট্রেশন ফি ১০০০ টাকা পাঠান এই নম্বরে।",
+    "lang": "bn",
+    "expected": "scam",
+    "type": "Lottery + Payment (Bengali)"
+  },
+  {
+    "id": 14,
+    "text": "Your HDFC credit card has been suspended due to unusual activity. Call customer care at 1800-XXX-XXXX immediately.",
+    "lang": "en",
+    "expected": "suspicious",
+    "type": "Urgency + Impersonation (could be real)"
+  },
+  {
+    "id": 15,
+    "text": "Aapka account verify karna zaroori hai. Kripya apna password aur OTP share karein hamare executive se.",
+    "lang": "hi",
+    "expected": "scam",
+    "type": "OTP + Password Request (Hinglish)"
+  },
+  {
+    "id": 16,
+    "text": "Dear SBI customer, your OTP for transaction of Rs 500 is 482917. Do not share this OTP with anyone. If not initiated by you, call 1800-1234.",
+    "lang": "en",
+    "expected": "safe",
+    "type": "Legit bank OTP SMS"
+  },
+  {
+    "id": 17,
+    "text": "HDFC Bank: Rs 2,500 debited from A/c XX1234 on 15/01. Avl Bal: Rs 45,000. If not done by you, call 1800-270-3333. Do not share OTP/PIN.",
+    "lang": "en",
+    "expected": "safe",
+    "type": "Legit bank debit alert"
+  },
+  {
+    "id": 18,
+    "text": "Your Amazon order #402-1234567 has been shipped. Expected delivery: 18 Jan. Track at amazon.in/track",
+    "lang": "en",
+    "expected": "safe",
+    "type": "Legit delivery notification"
+  },
+  {
+    "id": 19,
+    "text": "Swiggy: Your order from Biryani Blues is being prepared. Rider will arrive in 25 mins. Rate your experience after delivery.",
+    "lang": "en",
+    "expected": "safe",
+    "type": "Legit food delivery update"
+  },
+  {
+    "id": 20,
+    "text": "IRCTC: Ticket confirmed! PNR 284-1234567, Train 12301 Rajdhani Exp, 20 Jan, B3-45. Have a safe journey.",
+    "lang": "en",
+    "expected": "safe",
+    "type": "Legit railway confirmation"
+  },
+  {
+    "id": 21,
+    "text": "Dear customer, your KYC update is pending. Please visit your nearest branch with original documents within 30 days.",
+    "lang": "en",
+    "expected": "safe",
+    "type": "Legit KYC reminder (no link, no urgency)"
+  },
+  {
+    "id": 22,
+    "text": "Aapke account mein Rs 15,000 credit hue hain from NEFT. Ref: N234567890. SBI.",
+    "lang": "hi",
+    "expected": "safe",
+    "type": "Legit credit alert (Hinglish)"
+  },
+  {
+    "id": 23,
+    "text": "Your phone recharge of Rs 299 was successful. Validity: 28 days. Jio.",
+    "lang": "en",
+    "expected": "safe",
+    "type": "Legit recharge confirmation"
+  },
+  {
+    "id": 24,
+    "text": "URGENT: Your bank account has been compromised. Transfer all your money to this safe account immediately to protect your funds: 1234567890.",
+    "lang": "en",
+    "expected": "scam",
+    "type": "Urgency + Payment Request (classic scam)"
+  },
+  {
+    "id": 25,
+    "text": "TRAI Alert: Your mobile number will be deactivated in 48 hours due to pending KYC. Click http://trai-kyc.click to verify now.",
+    "lang": "en",
+    "expected": "scam",
+    "type": "Fake KYC + Impersonation + Suspicious Link"
+  }
+]

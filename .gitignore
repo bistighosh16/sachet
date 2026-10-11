@@ -1,0 +1,42 @@
+# Node dependencies & builds
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Python environments & caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# EasyOCR cached models (if downloaded locally)
+.EasyOCR/
+
+# Environment variables & secrets (CRITICAL)
+.env*
+!.env.example
+
+# IDE & OS files
+.vscode/*
+!.vscode/extensions.json
+**/.vscode/*
+!**/.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Evaluation test outputs / logs
+*.log
+logs/
