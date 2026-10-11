@@ -6,7 +6,6 @@ Built for **Hack for Social Cause** · Innovate for Bharat · Viksit Bharat Youn
 Team: **Solo Sentinel**
 
 🔗 **Live demo:** https://sachet-umber.vercel.app/
-🎥 **Demo video:** [VIDEO_LINK_HERE]
 
 ---
 
